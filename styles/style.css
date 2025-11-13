@@ -317,7 +317,7 @@ button span,
 }
 
 .first-sprint__img {
-  filter: brightness(200%) contrast(1.5);
+  filter: brightness(120%) hue-rotate(330deg);
 }
 
 .first-project__img {
@@ -329,7 +329,7 @@ button span,
 }
 
 .team__img {
-  filter: invert(1);
+  filter: invert(1) saturate(120%);
 }
 
 .task__img {
@@ -341,7 +341,7 @@ button span,
 }
 
 .now__img {
-  filter: saturate(150%);
+  filter: saturate(150%) opacity(0.8);
 }
 
 @media (width <= 375px) {
