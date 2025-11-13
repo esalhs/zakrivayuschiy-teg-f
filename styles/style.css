@@ -244,10 +244,8 @@ dialog::backdrop {
   transform: translateX(0);
 }
 
-.button__text,
-.save__text,
-.save__image,
-.dialog-button__text {
+button span,
+.save__image {
   position: relative;
   z-index: 1;
   color: white;
@@ -312,6 +310,38 @@ dialog::backdrop {
 
 .like-icon.is-liked .sparks {
   animation: sparking 0.3s ease-in 0.3s 1;
+}
+
+.beginning__img {
+  filter: brightness(120%) grayscale(0.6);
+}
+
+.first-sprint__img {
+  filter: brightness(200%) contrast(1.5);
+}
+
+.first-project__img {
+  filter: sepia(60%);
+}
+
+.second-sprint__img {
+  filter: hue-rotate(200deg);
+}
+
+.team__img {
+  filter: invert(1);
+}
+
+.task__img {
+  filter: sepia(80%);
+}
+
+.concentration__img {
+  filter: saturate(50%) grayscale(0.5);
+}
+
+.now__img {
+  filter: saturate(150%);
 }
 
 @media (width <= 375px) {
