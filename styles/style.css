@@ -154,7 +154,6 @@
   justify-items: center;
   align-items: center;
   gap: 8px;
-  width: clamp(19.125rem, 18.487rem + 2.723vw, 20.938rem);
   padding: 15px 18px;
 }
 
@@ -172,7 +171,6 @@
 .dialog {
   display: flex;
   flex-direction: column;
-  width: clamp(21.313rem, 21.048rem + 1.127vw, 22.063rem);
   border: var(--border);
   padding: 30px 30px;
   font-family: var(--accent-font);
@@ -209,7 +207,6 @@ dialog:not([open]) {
 .dialog-button {
   display: flex;
   justify-content: center;
-  width: clamp(16.25rem, 15.524rem + 3.099vw, 18.313rem);
   padding: 10px clamp(7.281rem, 6.929rem + 1.502vw, 8.281rem);
   line-height: 0.9;
   text-transform: uppercase;
